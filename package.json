@@ -1,0 +1,23 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "@slack/web-api": "^7.0.2",
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "shortid": "^2.2.16",
+    "slack": "^11.0.2",
+    "slackbots": "^1.3.0"
+  }
+}
