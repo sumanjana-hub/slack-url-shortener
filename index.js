@@ -5,7 +5,7 @@ const URL = require("./models/url");
 const urls = require("./slack/app");
 
 const app = express();
-const PORT = 6000;
+const PORT = 8004;
 
 connectToMongoDB("mongodb://localhost:27017/short-url").then(() =>
   console.log("Mongodb connected")
